@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+
+<STUDENTDATA>
+    <STUDENT>
+        <USN>USN   : 4CB18CS033</USN>
+        <NAME>NAME : KESHAV R KARANTH</NAME>
+        <COLLEGE>COLLEGE :CEC</COLLEGE>
+        <BRANCH>BRANCH :CSE</BRANCH>
+        <YEAR>YEAR : 2022</YEAR>
+        <EMAIL>E-MAIL : keshavarkarantha@gmail.com</EMAIL>
+    </STUDENT>
+    <STUDENT>
+        <USN>USN : 4CB18EC063</USN>
+        <NAME>NAME : SHARAN </NAME>
+        <COLLEGE>COLLEGE : CEC</COLLEGE>
+        <BRANCH>BRANCH :ECE</BRANCH>
+        <YEAR>YEAR : 2022</YEAR>
+        <EMAIL>E-MAIL : sharanbillava@gmail.com</EMAIL>
+    </STUDENT>
+    <STUDENT>
+        <USN>USN   : 4CB18CS077</USN>
+        <NAME>NAME : SACHIN</NAME>
+        <COLLEGE>COLLEGE : CEC</COLLEGE>
+        <BRANCH>BRANCH :CSE</BRANCH>
+        <YEAR>YEAR : 2022</YEAR>
+        <EMAIL>E-MAIL : sachin@gmail.com</EMAIL>
+    </STUDENT>
+</STUDENTDATA>
+
+
+
+
+
+

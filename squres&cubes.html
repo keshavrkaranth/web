@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squre and Cube</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 100%;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+
+
+
+        .main-div h1 {
+            display: flex;
+            font-size: 2rem;
+            justify-content: center;
+            color: #590d22;
+            font-family: cursive;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Squares and Cubes of Number 1-10</h1>
+
+        <table class="table table-hover" id="table-1">
+            <thead>
+                <tr class="bg-warning">
+                    <th scope="col">Number</th>
+                    <th scope="col">Square of Number</th>
+                    <th scope="col">Cube of Number</th>
+                </tr>
+            </thead>
+            <tbody class='bg-danger'></tbody>
+        </table>
+    </div>
+    <script>
+        const tableBody = document.getElementById('table-1').getElementsByTagName("tbody")[0];
+        for (let index = 1; index <= 10; index++) {
+
+            const nodeRow = tableBody.insertRow();
+            const cell1 = nodeRow.insertCell(0);
+            const cell2 = nodeRow.insertCell(1);
+            const cell3 = nodeRow.insertCell(2);
+            cell1.innerHTML = index;
+            cell2.innerHTML = index * index;
+            cell3.innerHTML = index * index * index;
+        }
+    </script>
+
+</body>
+
+</html>
